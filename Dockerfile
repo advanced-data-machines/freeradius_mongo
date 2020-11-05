@@ -16,7 +16,7 @@ WORKDIR /usr/local/src/repositories
 
 #
 #  - Clone Mongo-c-driver from github
-#  - make and install per the directions
+#  - make and install per the directions: http://mongoc.org/libmongoc/1.10.3/installing.html
 #  - this will place files needed by radius in directories:
 #       /usr/local/include/libbson-1.0/
 #       /usr/local/include/libmongoc-1.0/
