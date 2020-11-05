@@ -8,7 +8,7 @@ Run the bash script ./build.sh (requires docker) and copy the files output to th
 ## Abstract
 v3.0.x of Radius states explicitly that the mongo driver is "experimental", however, the opportunity to greatly simplify our backend datastore was compelling enough to explore this option.
 
-Unfortunately, there exists very little documentation available as to how to get this module to work.   Using the supported docker image [freeradius/freeradius-server:latest](https://hub.docker.com/r/freeradius/freeradius-server) simply enabling this inside **mods-enable/sql** produces the following error:
+Unfortunately, there is very little documentation available as to how to get this module to work.   Using the supported docker image [freeradius/freeradius-server:latest](https://hub.docker.com/r/freeradius/freeradius-server) simply enabling this inside **mods-enable/sql** produces the following error:
 
 > Could not link driver rlm_sql_mongo: /usr/lib/freeradius/rlm_sql_mongo.so:  cannot open shared object file: No such file or directory Make sure it (and all its dependent libraries!) are in the search path of your system's ld /etc/freeradius/3.0/mods-enabled/sql[27]: Instantiation failed for module "sql"
 
