@@ -19,8 +19,8 @@ The Dockerfile included in this project outlines the steps we used to build the 
 
 1. Run ./build.sh
 2. Output from the above script will be placed in the directory **target/**
-3. Copy output files from aboive to /usr/lib/freeradius (see [example](../example/Dockerfile))
+3. Copy output files from above to /usr/lib/freeradius (see [example](../example/Dockerfile))
 
 
 ## Conclusion
-This allowed us to continue testing FreeRadius with MongoDB.  If anyone has an easier way to do this I'd very much appreciate hearing from you.
+This allowed us to continue testing FreeRadius with MongoDB.  If anyone has an easier way to do this I'd very much appreciate hearing from you.  
