@@ -12,6 +12,8 @@ Unfortunately, there is very little documentation available as to how to get thi
 
 > Could not link driver rlm_sql_mongo: /usr/lib/freeradius/rlm_sql_mongo.so:  cannot open shared object file: No such file or directory Make sure it (and all its dependent libraries!) are in the search path of your system's ld /etc/freeradius/3.0/mods-enabled/sql[27]: Instantiation failed for module "sql"
 
+See github [issues](https://github.com/FreeRADIUS/freeradius-server/issues?q=mongo)
+
 ## Mongo Support
 The Dockerfile included in this project outlines the steps we used to build the **rlm_sql_mongo.so** drivers required by FreeRadius v3.0.x in order enable this module.
 
